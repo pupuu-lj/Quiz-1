@@ -98,7 +98,7 @@ def PlayerWinner():
        HideLabels()
        messagebox.showinfo("Congrats!!!!!!","Player O Won!")  
        Resetround()
-    elif monitor ==8:
+    elif monitor ==9:
         HideLabels()
         messagebox.showinfo("","This game are tied!")
         Resetround()
@@ -155,5 +155,6 @@ Playerxturn = Label(window,text="Player X Turn", fg="black", font=("arial",12,"b
 Playeroturn = Label(window,text="Player O Turn", fg="black", font=("arial",12,"bold"),bg="#AF8258")
 
 LabelTurn()
+
 
 window.mainloop()
